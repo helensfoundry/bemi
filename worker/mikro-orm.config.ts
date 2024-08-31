@@ -20,12 +20,12 @@ const mikroOrmConfig: Options = {
   allowGlobalContext: true,
   entities: ['./dist/core/src/entities/**/*.js'],
   entitiesTs: ['../core/src/entities/**/*.ts'],
-  migrations: {
-    path: './dist/core/src/migrations',
-    pathTs: '../core/src/migrations',
-    tableName: '_bemi_migrations',
-  },
-  extensions: [Migrator],
+  // migrations: {
+  //   path: './dist/core/src/migrations',
+  //   pathTs: '../core/src/migrations',
+  //   tableName: '_bemi_migrations',
+  // },
+  // extensions: [Migrator],
 }
 
 export default mikroOrmConfig
